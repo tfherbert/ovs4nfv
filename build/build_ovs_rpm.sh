@@ -138,7 +138,7 @@ if [ ! -z $DPDK ]; then
     cleanrpms
 
     if [ -z $DPDK_VERSION ]; then
-        DPDK_VERSION=16.04.1
+        DPDK_VERSION=16.04.0
     fi
     echo "-------------------------------------------"
     echo "Install dpdk and dpdk development rpms for version $DPDK_VERSION"
